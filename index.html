@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!---UPPGIFT #1
+    <button id="popupBTN" aria-expanded="false" class="popupBTN">
+      Join the club
+    </button>
+
+    <div
+      role="dialog"
+      id="accessibleModal"
+      class="hidePopup"
+      aria-expanded="true"
+      aria-labelledby="popupBTN"
+    >
+      <h2 id="modalTitle">Sorry!</h2>
+      <p>Unfortunately, the club is full...</p>
+      <button id="closeModalBtn" tabindex="0">Close</button>
+    </div>
+   -----UPPGIFT #2--------->
+
+    <!-- <button id="popupBTN" aria-expanded="false" class="popupBTN">
+      Join the club
+    </button>
+
+    <dialog
+      id="accessibleDialog"
+      class="showPopup"
+      aria-expanded="false"
+      aria-labelledby="popupBTN"
+    >
+      <h2>Exempel på tillgängligt modalfönster med &lt;dialog&gt;</h2>
+      <p>Här är innehållet i modalfönstret.</p>
+      <button id="closeDialogBTN" tabindex="0">Stäng</button>
+    </dialog> -->
+
+    <!----UPPGIFT #3-->
+    <button
+      id="menuButton"
+      aria-expanded="false"
+      aria-haspopup="false"
+      aria-controls="menuContent"
+    >
+      Meny
+    </button>
+    <nav id="menuContent" aria-labelledby="menuButton" class="hiddenMenu">
+      <ul>
+        <li><a href="#">Hem</a></li>
+        <li><a href="#">Om oss</a></li>
+        <li><a href="#">Tjänster</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+    </nav>
+    <!-- <script src="uppgift1.js"></script> -->
+    <!-- <script src="uppgift2.js"></script> -->
+    <script src="uppgift3.js"></script>
+  </body>
+</html>
